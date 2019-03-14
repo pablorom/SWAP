@@ -10,7 +10,7 @@ Una vez instaladas las máquinas swap1 y swap2 se ha hecho un ping a google.es e
 
 ## Conectar ambas máquinas mediante ssh
 
-> [!NOTE]
+**NOTA**
 > En cada máquina se han creado alias para el host y para la otra máquina modificando el archivo hosts de cada una de ellas.
 
 ![alias_en_swap1](img/alias_en_swap1.png)
