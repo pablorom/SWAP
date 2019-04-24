@@ -24,7 +24,7 @@ pablorom@swap3balancer:~$ apt-get install haproxy
 
 Una vez tengamos instalador los balanceadores los tenemos que configurar. En el caso de nginx modificaremos el fichero /etc/nginx/conf.d/default.conf y usaremos algoritmo de ponderacion dandole peso 2 a la maquina 2 (swap2) y 1 a la maquina 1 (swap1).
 
-![nginx_conf](img/nginx/conf.d/default.png)
+![nginx_conf](img/nginx/conf.d/default)
 > Detalles del fichero de configuracion de nginx
 
 Para configurar haproxy modificaremos el archivo /etc/haproxy/haproxy.cfg
@@ -63,10 +63,10 @@ pablorom@swap3balancer:~$ ab -n 10000 -c 10 http://192/168.56.4/index.html
 
 Con el uso de la herramienta htop veremos que el porcentaje de la CPU del balanceador (swap3balancer) será el máximo y en las dos máquinas finales se reparten las peticiones según el algoritmo de ponderacion (en caso de nginx) y round-robin en caso de haproxy:
 
-![ab_nginx](img/ab_nginx2.png)
+![ab_nginx](img/ab_nginx_2.png)
 > Muestra de funcionamiento de gninx con una alta carga usando Apache Benchmark
 
-![ab_haproxy](img/ab_haproxy2.png)
+![ab_haproxy](img/ab_haproxy_2.png)
 > Muestra de funcionamiento de haproxy con una alta carga usando Apache Benchmark
 
 
