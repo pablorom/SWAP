@@ -24,7 +24,7 @@ pablorom@swap3balancer:~$ apt-get install haproxy
 
 Una vez tengamos instalador los balanceadores los tenemos que configurar. En el caso de nginx modificaremos el fichero /etc/nginx/conf.d/default.conf y usaremos algoritmo de ponderacion dandole peso 2 a la maquina 2 (swap2) y 1 a la maquina 1 (swap1).
 
-![nginx_conf](img/nginx/conf.d/default)
+![nginx_conf](img/nginx_conf)
 > Detalles del fichero de configuracion de nginx
 
 Para configurar haproxy modificaremos el archivo /etc/haproxy/haproxy.cfg
