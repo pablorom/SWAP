@@ -9,13 +9,13 @@ Para ver los puertos abiertos y las aplicaciones en mac podemos usar lo siguient
 Lo que nos ofrece el siguiente resultado:
 
 SilentCle  319 pablorom   10u  IPv4 0xd4ba2349429bddad      0t0  TCP localhost:6666 (LISTEN)
-Dropbox    352 pablorom   66u  IPv6 0xd4ba2349494e883d      0t0  TCP *:17500 (LISTEN)
-Dropbox    352 pablorom   69u  IPv4 0xd4ba23494b2828c5      0t0  TCP *:17500 (LISTEN)
-Dropbox    352 pablorom   92u  IPv4 0xd4ba23494981ddad      0t0  TCP localhost:17600 (LISTEN)
-Dropbox    352 pablorom   97u  IPv4 0xd4ba234948f978c5      0t0  TCP localhost:17603 (LISTEN)
-SpotifyWe  374 pablorom    6u  IPv4 0xd4ba2349429befbd      0t0  TCP localhost:4370 (LISTEN)
-SpotifyWe  374 pablorom    7u  IPv4 0xd4ba2349429bf8c5      0t0  TCP localhost:4380 (LISTEN)
-Adobe\x20  415 pablorom   15u  IPv4 0xd4ba2349429be6b5      0t0  TCP localhost:15292 (LISTEN)
+\nDropbox    352 pablorom   66u  IPv6 0xd4ba2349494e883d      0t0  TCP *:17500 (LISTEN)
+\nDropbox    352 pablorom   69u  IPv4 0xd4ba23494b2828c5      0t0  TCP *:17500 (LISTEN)
+\nDropbox    352 pablorom   92u  IPv4 0xd4ba23494981ddad      0t0  TCP localhost:17600 (LISTEN)
+\nDropbox    352 pablorom   97u  IPv4 0xd4ba234948f978c5      0t0  TCP localhost:17603 (LISTEN)
+\nSpotifyWe  374 pablorom    6u  IPv4 0xd4ba2349429befbd      0t0  TCP localhost:4370 (LISTEN)
+\nSpotifyWe  374 pablorom    7u  IPv4 0xd4ba2349429bf8c5      0t0  TCP localhost:4380 (LISTEN)
+\nAdobe\x20  415 pablorom   15u  IPv4 0xd4ba2349429be6b5      0t0  TCP localhost:15292 (LISTEN)
 
 
 ##Ejercicio T6.3: Buscar información acerca de los tipos de ataques más comunes en servidores web, en qué consisten, y cómo se pueden evitar.
